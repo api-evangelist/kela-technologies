@@ -1,8 +1,26 @@
 aid: kela-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kela-technologies.png
 name: Kela Technologies
-description: 'Kela Technologies is a company surfaced as a portfolio company of lux-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: defense. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Kela Technologies (kela.io) is a defense technology company founded by veterans
+  of elite Israeli intelligence units, providing a secure, open platform that enables rapid
+  and seamless integration of commercial and military systems in service of Western defense.
+  The company emerged from stealth in 2025 after raising $39M from Sequoia Capital, Lux Capital,
+  and In-Q-Tel (the CIA''s venture arm). Kela is building "Sovereign Sky," a low-Earth-orbit
+  satellite constellation for resilient communication and navigation independent of foreign
+  infrastructure, and acquired cloud-management company Pelanor. As of this enrichment pass
+  the company publishes a single-page marketing site with a privacy policy but no public API,
+  developer portal, documentation, or machine-readable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/kela-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +30,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Defense
+- Defense Technology
+- Military
+- Systems Integration
+- Space
+- Satellite
+- National Security
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/kela-technologies-domain-security.yml
+- type: Website
+  url: https://kela.io
+- type: PrivacyPolicy
+  url: https://kela.io/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kela-technologies/
+- type: Twitter
+  url: https://x.com/kela_tech
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
